@@ -1,0 +1,596 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  font-family: 'Fredoka One';
+  font-family: 'Roboto';
+  font-family: 'Hind Madurai';
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.container{
+
+}
+
+.box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #fff;
+ width: 1600px;
+ height: 74px;
+}
+
+.box_img{
+ margin-top: 1px;
+ margin-right: 266px;
+ margin-left: 245px;
+}
+
+
+.box_link{
+
+padding-top: 30px;
+
+}
+
+.box_link_text_rgba{
+color: rgba(210, 49, 102, 1);
+font-size: 15px;
+font-family: 'Roboto';
+font-weight: 700;
+
+}
+.box_link_text{
+ font-size: 14px;
+ font-family: 'Roboto';
+ color: #150101;
+ padding-left: 40px;
+ text-decoration: none;
+}
+
+.Buy{
+background-color: #D23166;
+width: 165px;
+height: 49px;
+border-radius: 5px;
+border:none;
+cursor: pointer;
+flex-shrink: 0;
+margin-right: 230px;
+margin-left: 172px;
+margin-top: 1px;
+color:white;
+}
+
+.Buy_Now{
+  color: #FAFAFA;
+  font-size: 16px;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wrapper{
+margin: 0 auto;
+display: flex;
+padding-left: 237px;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.wrapper_text{
+  color: #0F0101;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  letter-spacing: 1.4px;
+ justify-content: center;
+
+ margin-bottom: 6px;
+}
+
+.wrapper_title_text{
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #0F0101;
+  font-size: 57.33px;
+  font-family: 'Fredoka', sans-serif;
+  line-height: 120.5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.span{
+color: rgba(210, 49, 102, 1);
+}
+
+.wrapper_text_tuw{
+  width: 523px;
+  height: 78px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #0F0101;
+  font-size: 18px;
+  font-family: Hind Madurai;
+  justify-content: center;
+  align-items: center;
+
+
+ 
+}
+
+.wrapper_seconda{
+
+}
+
+.img{
+  margin-top: 126px;
+  background-image: url(../img/header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  bottom: center;
+  width: 597px;
+  height: 597px; 
+  border: 0px none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.Buy_Now_twu{
+  color: #FAFAFA;
+  font-size: 16px;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  text-decoration: none;
+
+}
+button{
+cursor: pointer;}
+.Buy_twu{
+  margin-top: 50px;
+  border: none;
+  background-color: #D23166;
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  color: white;
+}
+
+
+
+.section{
+width: 80%;
+margin: 0 auto;
+}
+.section .cards{
+background-color: #fff;
+margin: 20px 0 50px 0;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+}
+.section .card{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  text-align: center;
+  border-radius: 7px;
+}
+.section .card h3{
+  margin: 8px 0 12px 0;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.section .card p{
+  margin: 0;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 60%;
+}
+
+.section2{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section2 .text h1{
+  font-family: 'Hind Madurai', sans-serif;
+  margin: 0;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 48px;
+  color: rgba(21, 1, 1, 1);
+}
+
+.section2 .text p{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  opacity: 60%;
+  font-size: 16px;
+  margin: 0;
+  line-height: 24px;
+}
+
+.section2 .text button{
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  height: 49px;
+  width: 165px;
+  border-radius: 5px;
+  background: #D23166;
+}
+
+.section2 .text{
+  margin-top: 200px;
+}
+
+.section2 img{
+  width: 655px;
+  height:656.8px;
+  top: 1190px;
+  left:768px;
+}
+
+.section3 h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 44px;
+  line-height: 61px;
+  font-weight: 600;
+  color: rgba(21, 1, 1, 1);
+}
+.section3{
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+.section3 .btns{
+  width: 80%;
+  margin: 0 auto;
+}
+.section3 .btns ul{
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .btns ul p{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 3px solid #D23166;
+}
+.section3 .btns ul li{
+ font-family: 'Roboto',sans-serif;
+ font-weight: 600;
+ font-size: 18px;
+ opacity: 60%;
+}
+
+.section3 .card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.section3 .card .text h2{
+  margin: 50px 0 5px 0;
+  font-size: 26px;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  line-height: 35px;
+}
+.section3 .card .text h3{
+  margin: 0;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  opacity: 70%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section3 .card .text p{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0;
+}
+.section3 .card .text p span{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  opacity: 70%;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: line-through;
+}
+.section3 .card .text button{
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  height: 49px;
+  width: 165px;
+  border-radius: 5px;
+  background: #D23166;
+}
+.section3 .card .text{
+  width: 435px;
+  margin-top: 30px;
+}
+.section3 .card img{
+  width: 580px;
+  height: 415px;
+}
+.section3 .end{
+  margin-top:30px ;
+  display: flex;
+  justify-content: space-between;
+}
+.ellisa{
+  align-items: center;
+  display: flex;
+  gap: 0 20px;
+}
+.ellisa h2{
+  font-size: 24px;
+  font-family: 'Roboto',sans-serif;
+  font-weight:700;
+  margin:0;
+}
+.ellisa h3{
+  opacity: 70%;
+  font-family: 'Roboto',sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+.desc p{
+  font-family: 'Roboto',sans-serif;
+  opacity: 70%;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+.desc {
+  margin:30px 0;
+  display: flex;
+  width: 320px;
+}
+.desc .imgend{
+  position: absolute;
+  padding: 10px 0 0 6px;
+}
+.desc .imgend2{
+  position: absolute;
+  padding: 10px 0 0 12px;
+}
+.desc .imgstart{
+  position: absolute;
+  left: 140px;
+  
+}
+.desc .imgstart2{
+ position: absolute;
+ left: 146px;
+}
+.card2{
+  width: 400px;
+  margin-top: 100px;
+}
+.slider img{
+  border-radius: 50%;
+}
+.slider{
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.section4{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.section4 .sec4{
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.section4 .text h1{
+  margin: 0;
+ font-size: 44px;
+ font-weight: 600;
+ font-family: 'Roboto',sans-serif;
+ line-height: 51px;
+}
+
+.section4 .text h2{
+  margin: 20px 0 20px 0;
+  font-size: 18px;
+  width: 70%;
+  font-weight: 400;
+  font-family: 'Roboto',sans-serif;
+  line-height: 23px;
+  letter-spacing: 1px;
+  opacity: 70%;
+}
+.section4 .text p{
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Roboto',sans-serif;
+}
+.section4 .text p img{
+border-radius: 5px;
+padding: 8px;
+height: 16px;
+width: 16px;
+background: white;
+margin-right: 7px;
+}
+.images img{
+  margin: 0;
+  padding: 0;
+}
+.images{
+  margin-top: 40px;
+  gap: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.section4 .text{
+  margin:80px 0 0 120px;
+  text-align: start;
+}
+.send h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto',sans-serif;
+}
+.send{
+  width: 640px;
+  margin: 0 auto;
+}
+.inputs input{
+  border-radius: 5px;
+  border: 1px solid rgba(255, 163, 163, 1);
+  padding-left: 30px;
+  width: 300px;
+  height: 64px;
+}
+.inp2{
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(255, 163, 163, 1);
+  padding-left: 30px;
+  width: 95%;
+  height: 68px;
+}
+.inputs{
+  width: 100%;
+  gap: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.send select{
+  border-radius: 5px;
+  border: 1px solid rgba(255, 163, 163, 1);
+  color: gray;
+  padding-left:30px;
+  width: 300px;
+  height: 64.5px;
+}
+.send select i{
+font-size: 6px;
+}
+.sendbtn{
+  background: rgba(214, 67, 116, 1);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  width: 134px;
+  height: 68px;
+  left: 948px;
+  top: 4722px;
+}
+
+footer{
+background: #0A0808;
+width: 1600px;
+height: 381px;
+flex-shrink: 0;
+}
+
+.footer_text{
+display: flex;
+width: 207px;
+height: 47px;
+flex-direction: column;
+flex-shrink: 0;
+align-items: center;
+justify-content: center;
+color: #FFF;
+font-size: 12px;
+font-family: 'Roboto';
+line-height: 139.687%;
+letter-spacing: 0.12px;
+}
+.footer{
+width: 80%;
+margin:0 auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+min-height: 50vh;
+align-items:center;
+}
+
+.footer_content{
+  width: 210px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+.footer p{
+  line-height: 15px;
+color: white;
+opacity: 70%;
+font-family: 'Roboto',sans-serif;
+font-size: 12px;
+}
+
+.footer_content h2{
+  margin: 10px 0 5px 0;
+  font-size: 12px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.footer .text{
+  margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 10px 0;
+}
+.footerend button{
+  background: rgba(214, 67, 116, 1);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  width: 125px;
+  height: 55px;
+}
+
+.footer input{
+  background:none;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(255, 163, 163, 1);
+  color: gray;
+  padding-left:30px;
+  width: 200px;
+  height: 55px;
+}
